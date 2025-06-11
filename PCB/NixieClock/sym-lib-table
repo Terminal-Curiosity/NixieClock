@@ -1,2 +1,4 @@
 (sym_lib_table
+  (version 7)
+  (lib (name "ESP32-DEVKITC-32D")(type "KiCad")(uri "C:/Users/lucas/OneDrive/Documents/Projects/Nixie Clock/PCB/Library/ESP32-DEVKITC-32D/ESP32-DEVKITC-32D.kicad_sym")(options "")(descr ""))
 )

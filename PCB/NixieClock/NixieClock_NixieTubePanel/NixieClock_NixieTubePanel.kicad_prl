@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "All Layers",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -15,12 +15,11 @@
       "vias": 1.0,
       "zones": 0.6
     },
-    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
-      "keepouts": true,
+      "keepouts": false,
       "lockedItems": true,
       "otherItems": true,
       "pads": true,
@@ -46,6 +45,8 @@
       "pads",
       "zones",
       "drc_warnings",
+      "locked_item_shadows",
+      "conflict_shadows",
       "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
@@ -57,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "NixieClock.kicad_prl",
+    "filename": "NixieClock_NixieTubePanel.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -113,27 +114,27 @@
   "project": {
     "files": [
       {
-        "name": "NixieClock.kicad_sch",
+        "name": "NixieClock_NixieTubePanel.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 2576,
+          "size_y": 1456
+        }
+      },
+      {
+        "name": "NixieClock_NixieTubePanel.kicad_sch",
         "open": true,
         "window": {
           "display": 0,
           "maximized": false,
-          "pos_x": 633,
+          "pos_x": -7,
           "pos_y": 0,
-          "size_x": 1934,
-          "size_y": 1087
-        }
-      },
-      {
-        "name": "NixieClock.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 633,
-          "pos_y": 0,
-          "size_x": 1934,
-          "size_y": 1087
+          "size_x": 1071,
+          "size_y": 1447
         }
       }
     ]
