@@ -123,18 +123,6 @@
           "size_x": 1934,
           "size_y": 1087
         }
-      },
-      {
-        "name": "NixieClock.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 633,
-          "pos_y": 0,
-          "size_x": 1934,
-          "size_y": 1087
-        }
       }
     ]
   },

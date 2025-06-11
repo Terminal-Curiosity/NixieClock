@@ -112,32 +112,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "NixieClock_NixieTubePanel.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 2576,
-          "size_y": 1456
-        }
-      },
-      {
-        "name": "NixieClock_NixieTubePanel.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": -7,
-          "pos_y": 0,
-          "size_x": 1071,
-          "size_y": 1447
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {
