@@ -113,8 +113,8 @@
   "project": {
     "files": [
       {
-        "name": "NixieClock.kicad_sch",
-        "open": true,
+        "name": "NixieClock.kicad_pcb",
+        "open": false,
         "window": {
           "display": 0,
           "maximized": false,
