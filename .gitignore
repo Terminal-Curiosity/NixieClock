@@ -3,11 +3,7 @@
 /Images
 /PCB/NixieClock/NixieClock-backups
 /PCB/NixieClock/NixieClock_NixieTubePanel/NixieClock_NixieTubePanel-backups
-/PCB/NixieClock/NixieClockFirmware
 *.lnk
-PCB/NixieClock/NixieClock.kicad_prl
-PCB/NixieClock/NixieClock.kicad_prl
-PCB/NixieClock/NixieClock_NixieTubePanel/~NixieClock_NixieTubePanel.kicad_pcb.lck
-PCB/NixieClock/NixieClock.kicad_prl
-PCB/NixieClock/NixieClock_NixieTubePanel/NixieClock_NixieTubePanel.kicad_prl
+*.lck
 *.kicad_prl
+*/fp-info-cache
