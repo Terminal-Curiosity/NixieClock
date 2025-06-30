@@ -1,0 +1,4 @@
+Default	False	2.0	3
++5V	False	2.0	3
+HighVoltage	True	2.0	3
+False	True	False
