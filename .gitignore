@@ -1,9 +1,8 @@
 /Datasheets
 /Design Docs
 /Images
-/PCB/NixieClock/NixieClock-backups
-/PCB/NixieClock/NixieClock_NixieTubePanel/NixieClock_NixieTubePanel-backups
 *.lnk
 *.lck
 *.kicad_prl
 fp-info-cache
+*.zip
