@@ -3349,6 +3349,7 @@
 		(path "/4b71cbf8-f382-4110-a1ad-49a60f1c3dc4")
 		(sheetname "/")
 		(sheetfile "NixieClock_NixieTubePanel.kicad_sch")
+		(solder_paste_margin 0)
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -3783,7 +3784,7 @@
 		(property "Reference" "C10"
 			(at -0.1 -1.6 0)
 			(layer "B.SilkS")
-			(uuid "3e541e42-4261-46bb-b937-3e4808ecb411")
+			(uuid "6a2ebe7e-53b5-4049-9cab-266b8de25236")
 			(effects
 				(font
 					(size 1 1)
@@ -3795,7 +3796,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
-			(uuid "30f40c6f-c5f8-49ff-b769-8adc6b77cc06")
+			(uuid "47478f4b-2826-4f02-93d3-37d3f6affb8a")
 			(effects
 				(font
 					(size 1 1)
@@ -3808,7 +3809,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "61e68384-ca69-4343-8da4-e1c396677747")
+			(uuid "7d9c87c0-c1f1-4c23-9d0c-32956524dd92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3822,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3346c9e1-12dd-48b1-bf07-176222a03c98")
+			(uuid "5f2c6188-52d0-4071-8aa8-59993cefeca7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,6 +3835,8 @@
 		(path "/c4af4be3-2596-4481-924c-64e95d988a90")
 		(sheetname "/")
 		(sheetfile "NixieClock_NixieTubePanel.kicad_sch")
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -4335,6 +4338,8 @@
 		(path "/eacf1247-043a-4930-b727-68b37c9a9e80")
 		(sheetname "/")
 		(sheetfile "NixieClock_NixieTubePanel.kicad_sch")
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
 		(attr smd)
 		(fp_line
 			(start 3.86 5.26)
@@ -5016,6 +5021,7 @@
 		(path "/4e96f787-6898-4a52-b2b9-8bad62ef0436")
 		(sheetname "/")
 		(sheetfile "NixieClock_NixieTubePanel.kicad_sch")
+		(solder_paste_margin 0)
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -5220,6 +5226,8 @@
 		(path "/d6988636-77ed-41e1-84e8-9b359a2b6796")
 		(sheetname "/")
 		(sheetfile "NixieClock_NixieTubePanel.kicad_sch")
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
 		(attr smd)
 		(fp_line
 			(start 3.86 5.26)
@@ -6255,6 +6263,7 @@
 		(path "/cf09d2dd-2b74-4dc4-87aa-bca962784280")
 		(sheetname "/")
 		(sheetfile "NixieClock_NixieTubePanel.kicad_sch")
+		(solder_paste_margin 0)
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -6460,6 +6469,7 @@
 		(path "/9919bb7e-bd34-4e24-8d7e-c8d8bed00bb6")
 		(sheetname "/")
 		(sheetfile "NixieClock_NixieTubePanel.kicad_sch")
+		(solder_paste_margin 0)
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -6664,6 +6674,8 @@
 		(path "/a89367ac-2ef8-4d1f-afa8-a6c0ccb44b79")
 		(sheetname "/")
 		(sheetfile "NixieClock_NixieTubePanel.kicad_sch")
+		(solder_paste_margin 0)
+		(solder_paste_margin_ratio 0)
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)

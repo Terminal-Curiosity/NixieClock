@@ -6,3 +6,4 @@
 *.kicad_prl
 fp-info-cache
 *.zip
+/PCB/NixieClock/NixieClock_NixieTubePanel/gerber_to_order
