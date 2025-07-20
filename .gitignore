@@ -7,3 +7,5 @@
 fp-info-cache
 *.zip
 /PCB/NixieClock/NixieClock_NixieTubePanel/gerber_to_order
+PCB/NixieClock/NixieClock_ControlDaughterBoard/\#auto_saved_files\#
+/PCB/NixieClock/NixieClock_NixieTubePanel/Outputs
