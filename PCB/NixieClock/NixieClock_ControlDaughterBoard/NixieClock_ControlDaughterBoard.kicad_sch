@@ -4406,7 +4406,7 @@
 	)
 	(wire
 		(pts
-			(xy 89.58 34.5) (xy 117.19 34.5)
+			(xy 89.58 34.5) (xy 121.19 34.5)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +5276,7 @@
 	)
 	(wire
 		(pts
-			(xy 181 101.5) (xy 181 95.5)
+			(xy 181 101.5) (xy 181 96)
 		)
 		(stroke
 			(width 0)
@@ -5346,7 +5346,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.81 34.5) (xy 133 34.5)
+			(xy 128.81 34.5) (xy 133 34.5)
 		)
 		(stroke
 			(width 0)
@@ -13977,6 +13977,68 @@
 	(netclass_flag ""
 		(length 1.5)
 		(shape round)
+		(at 112.5 34.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01dc4563-0bad-4516-8d38-2cbfdd6a26e0")
+		(property "Netclass" "+5V"
+			(at 113.1985 33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 85.5 -24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.5)
+		(shape round)
+		(at 133 34.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b6b47f9-6e77-466e-8ad0-a8d6757dac28")
+		(property "Netclass" "+5V"
+			(at 133.6985 33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 106 -24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.5)
+		(shape round)
 		(at 298 28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13997,37 +14059,6 @@
 		)
 		(property "Component Class" ""
 			(at 271 -30.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.5)
-		(shape round)
-		(at 127 34.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3b350c4-3e2e-4209-ad27-237e45cc48af")
-		(property "Netclass" "+5V"
-			(at 127.6985 33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 100 -24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15183,7 +15214,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 192 92 0)
+			(at 192 92.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16719,7 +16750,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 121 34.5 90)
+		(at 125 34.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16727,7 +16758,7 @@
 		(dnp no)
 		(uuid "91e12bc6-3762-4328-84fe-359559910157")
 		(property "Reference" "F1"
-			(at 119 39.5 90)
+			(at 123 39.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16735,7 +16766,7 @@
 			)
 		)
 		(property "Value" "1.5A PTC"
-			(at 122 37.5 90)
+			(at 126 37.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16743,7 +16774,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 126.08 33.23 0)
+			(at 130.08 33.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16753,7 +16784,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121 34.5 0)
+			(at 125 34.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16762,7 +16793,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 121 34.5 0)
+			(at 125 34.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16771,7 +16802,7 @@
 			)
 		)
 		(property "Company" ""
-			(at 121 34.5 0)
+			(at 125 34.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16779,7 +16810,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse"
-			(at 121 34.5 90)
+			(at 125 34.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16788,7 +16819,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "NANOSMDC150F-2"
-			(at 121 34.5 90)
+			(at 125 34.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16797,7 +16828,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 121 34.5 90)
+			(at 125 34.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17166,7 +17197,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 181 95.5 0)
+		(at 181 96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17174,7 +17205,7 @@
 		(dnp no)
 		(uuid "aed72875-9394-45c1-8177-94253738d12c")
 		(property "Reference" "#PWR03"
-			(at 181 99.31 0)
+			(at 181 99.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17183,7 +17214,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 181 91.944 0)
+			(at 181 92.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17191,7 +17222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181 95.5 0)
+			(at 181 96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17200,7 +17231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181 95.5 0)
+			(at 181 96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17209,7 +17240,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181 95.5 0)
+			(at 181 96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17217,7 +17248,7 @@
 			)
 		)
 		(property "Company" ""
-			(at 181 95.5 0)
+			(at 181 96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
