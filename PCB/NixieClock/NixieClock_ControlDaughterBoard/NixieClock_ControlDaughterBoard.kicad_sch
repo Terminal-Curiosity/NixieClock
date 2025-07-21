@@ -4405,16 +4405,6 @@
 		)
 		(uuid "678b7477-7af0-459a-ac08-40fbc908ee00")
 	)
-	(text "change header pins to sockets"
-		(exclude_from_sim no)
-		(at 219 186.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "95d1774f-d469-4cd0-b34d-375db942d68d")
-	)
 	(text "Off board power source.\nPart included for BOM only"
 		(exclude_from_sim no)
 		(at 25 41 0)
