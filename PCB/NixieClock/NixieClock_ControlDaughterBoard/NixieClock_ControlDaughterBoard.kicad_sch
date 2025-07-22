@@ -2698,24 +2698,6 @@
 				(pin bidirectional line
 					(at -5 38 0)
 					(length 5)
-					(name "GPIO21"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5 35 0)
-					(length 5)
 					(name "GPIO22"
 						(effects
 							(font
@@ -2732,16 +2714,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at -5 28 0)
+					(at -5 35 0)
 					(length 5)
-					(name "GPIO23"
+					(name "GPIO21"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "30"
+					(number "26"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5 28 0)
+					(length 5)
+					(name "GPIO19"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1 1)
@@ -2770,14 +2770,14 @@
 				(pin bidirectional line
 					(at -5 22 0)
 					(length 5)
-					(name "GPIO32"
+					(name "GPIO13"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "6"
+					(number "13"
 						(effects
 							(font
 								(size 1 1)
@@ -2788,14 +2788,14 @@
 				(pin bidirectional line
 					(at -5 19 0)
 					(length 5)
-					(name "GPIO33"
+					(name "GPIO18"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "7"
+					(number "24"
 						(effects
 							(font
 								(size 1 1)
@@ -2842,14 +2842,14 @@
 				(pin bidirectional line
 					(at -5 10 0)
 					(length 5)
-					(name "GPIO27"
+					(name "GPIO4"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "10"
+					(number "20"
 						(effects
 							(font
 								(size 1 1)
@@ -2896,14 +2896,14 @@
 				(pin bidirectional line
 					(at 35 47 180)
 					(length 5)
-					(name "GPIO16/RX2"
+					(name "GPIO23"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "21"
+					(number "30"
 						(effects
 							(font
 								(size 1 1)
@@ -2914,14 +2914,14 @@
 				(pin bidirectional line
 					(at 35 44 180)
 					(length 5)
-					(name "GPIO18"
+					(name "GPIO15"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "24"
+					(number "18"
 						(effects
 							(font
 								(size 1 1)
@@ -2968,14 +2968,14 @@
 				(pin bidirectional line
 					(at 35 35 180)
 					(length 5)
-					(name "GPIO5"
+					(name "GPIO2"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "23"
+					(number "19"
 						(effects
 							(font
 								(size 1 1)
@@ -2986,14 +2986,14 @@
 				(pin bidirectional line
 					(at 35 32 180)
 					(length 5)
-					(name "GPIO19"
+					(name "GPIO27"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "25"
+					(number "10"
 						(effects
 							(font
 								(size 1 1)
@@ -3040,14 +3040,14 @@
 				(pin bidirectional line
 					(at 35 23 180)
 					(length 5)
-					(name "GPIO4"
+					(name "GPIO33"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "20"
+					(number "7"
 						(effects
 							(font
 								(size 1 1)
@@ -3058,14 +3058,14 @@
 				(pin bidirectional line
 					(at 35 20 180)
 					(length 5)
-					(name "GPIO15"
+					(name "GPIO16/RX2"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "18"
+					(number "21"
 						(effects
 							(font
 								(size 1 1)
@@ -3094,14 +3094,14 @@
 				(pin bidirectional line
 					(at 35 14 180)
 					(length 5)
-					(name "GPIO2"
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "19"
+					(number "23"
 						(effects
 							(font
 								(size 1 1)
@@ -3130,14 +3130,14 @@
 				(pin bidirectional line
 					(at 35 8 180)
 					(length 5)
-					(name "GPIO13"
+					(name "GPIO32"
 						(effects
 							(font
 								(size 1 1)
 							)
 						)
 					)
-					(number "13"
+					(number "6"
 						(effects
 							(font
 								(size 1 1)
@@ -14294,6 +14294,16 @@
 		)
 		(uuid "0cff9d24-cec3-4193-b21c-4e1cd33b1b2e")
 	)
+	(label "I2C_SDA2"
+		(at 91 37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b065556-bb7a-4b31-8079-d299b0bd6797")
+	)
 	(label "I2C_SDA1"
 		(at 352.5 147.5 0)
 		(effects
@@ -14313,16 +14323,6 @@
 			(justify left bottom)
 		)
 		(uuid "8adc7af8-f165-41cc-a0db-7546b0321ba2")
-	)
-	(label "I2C_SCL2"
-		(at 91 37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c36cbcb-c83a-47ed-913f-e13abca9a5d1")
 	)
 	(label "LDR_IN"
 		(at 358.5 83 0)
@@ -14354,6 +14354,16 @@
 		)
 		(uuid "cb05db8d-f65c-4b32-926f-23b387cca81e")
 	)
+	(label "I2C_SCL2"
+		(at 92 42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d234975d-0399-4bac-a34e-c8b35272b22e")
+	)
 	(label "I2C_SCL1"
 		(at 352.5 142.5 0)
 		(effects
@@ -14363,16 +14373,6 @@
 			(justify left bottom)
 		)
 		(uuid "ebdfdf1a-d304-43f8-b022-3689fa5f171b")
-	)
-	(label "I2C_SDA2"
-		(at 92.5 42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0577155-cd81-415b-b0e5-e35e7f5d6c90")
 	)
 	(netclass_flag ""
 		(length 1.5)

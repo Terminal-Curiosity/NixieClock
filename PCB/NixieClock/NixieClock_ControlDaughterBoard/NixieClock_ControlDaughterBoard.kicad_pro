@@ -60,28 +60,20 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|122275000|110525000|2d7263b9-24b3-4de1-b58c-f01a8cb62265|00000000-0000-0000-0000-000000000000",
-          "Scaled to fit PCBA better. silkscreen only"
+          "lib_footprint_mismatch|121775000|93525000|2d7263b9-24b3-4de1-b58c-f01a8cb62265|00000000-0000-0000-0000-000000000000",
+          "Logo scaled down in size to fit PCBA better"
         ],
         [
-          "lib_footprint_mismatch|148475000|94450000|b67484f5-3bac-4b76-b34d-b9dca9d99a31|00000000-0000-0000-0000-000000000000",
-          "pin 3 intentionally removed for improved HV creepage and clearance"
+          "lib_footprint_mismatch|137750000|111500000|c26e41d0-cfc4-4310-84df-4ef3d6aaeb25|00000000-0000-0000-0000-000000000000",
+          "Scaled down graphic. silkscreen only"
         ],
         [
-          "lib_footprint_mismatch|148500000|87500000|c26e41d0-cfc4-4310-84df-4ef3d6aaeb25|00000000-0000-0000-0000-000000000000",
-          "G1 has been scaled down in size to fit board"
+          "lib_footprint_mismatch|148525000|107800000|b67484f5-3bac-4b76-b34d-b9dca9d99a31|00000000-0000-0000-0000-000000000000",
+          "Removed pin 3 for increased creepage and clearance to HV zone"
         ],
         [
-          "lib_footprint_mismatch|168587500|105000000|5cd0b3d3-4c25-4254-9790-3a5c53971358|00000000-0000-0000-0000-000000000000",
-          "Footprint modified to remove screw holes as they are not desired for this project"
-        ],
-        [
-          "silk_edge_clearance|154300000|80000000|5e182de4-810e-45ae-9f68-76d0e5a1e7a9|7369edb7-6205-453c-a054-054878197e40",
-          "ok for A2 to overlap PCBA edge as it is a daughter board and fits mechanically in the assembly"
-        ],
-        [
-          "silk_edge_clearance|182200000|80000000|5e182de4-810e-45ae-9f68-76d0e5a1e7a9|2952c746-1745-4312-a83c-5b7718876d3c",
-          "ok for A2 to overlap PCBA edge as it is a daughter board and fits mechanically in the assembly"
+          "lib_footprint_mismatch|168637500|105990000|5cd0b3d3-4c25-4254-9790-3a5c53971358|00000000-0000-0000-0000-000000000000",
+          "Pins remapped for easier routing"
         ]
       ],
       "meta": {
