@@ -12,3 +12,4 @@ PCB/NixieClock/NixieClock_ControlDaughterBoard/\#auto_saved_files\#
 *.pdf
 PCB/NixieClock/NixieClock_NixieTubePanel/CE3E3V2_NixieClock_NixieTubePanel.3mf
 PCB/NixieClock/NixieClock_NixieTubePanel/NixieClock_NixieTubePanel.stl
+*.stl
