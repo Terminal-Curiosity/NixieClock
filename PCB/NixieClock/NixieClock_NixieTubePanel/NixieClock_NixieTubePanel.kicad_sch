@@ -2719,7 +2719,7 @@
 	)
 	(wire
 		(pts
-			(xy 69 160.54) (xy 65.08 160.54)
+			(xy 69 160.54) (xy 65 160.54)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.08 155.5) (xy 65.08 155.46)
+			(xy 65 155.5) (xy 65 155.46)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.08 153) (xy 65.08 152.92)
+			(xy 65 153) (xy 65 152.92)
 		)
 		(stroke
 			(width 0)
@@ -3569,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 65.08 158) (xy 81.5 158)
+			(xy 65 158) (xy 81.5 158)
 		)
 		(stroke
 			(width 0)
@@ -3859,7 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 73 155.5) (xy 65.08 155.5)
+			(xy 73 155.5) (xy 65 155.5)
 		)
 		(stroke
 			(width 0)
@@ -4199,7 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 84 153) (xy 65.08 153)
+			(xy 84 153) (xy 65 153)
 		)
 		(stroke
 			(width 0)
@@ -6867,7 +6867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "K155ID1 NIXIE TUBE DRIVER"
+		(property "Description" "K155ID1 NIXIE TUBE DRIVER IC"
 			(at 148.5 138.5 0)
 			(effects
 				(font
@@ -6910,6 +6910,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Unknown"
+			(at 183 131.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 183 131.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "Unknown"
+			(at 183 131.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "eBay"
+			(at 183 131.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -7224,7 +7260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "122TR"
+		(property "Manufacturer PN" "122TR"
 			(at 27 265.5 0)
 			(effects
 				(font
@@ -7248,6 +7284,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 27.5 260.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7325,7 +7370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "122TR"
+		(property "Manufacturer PN" "122TR"
 			(at 27 278 0)
 			(effects
 				(font
@@ -7349,6 +7394,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 27.5 273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7494,6 +7548,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Unknown"
+			(at 255 53.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 255 53.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "Unknown"
+			(at 255 53.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "eBay"
+			(at 255 53.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -7717,7 +7807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "K155ID1 NIXIE TUBE DRIVER"
+		(property "Description" "K155ID1 NIXIE TUBE DRIVER IC"
 			(at 148.5 263 0)
 			(effects
 				(font
@@ -7760,6 +7850,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Unknown"
+			(at 183 256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 183 256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "Unknown"
+			(at 183 256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "eBay"
+			(at 183 256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -7881,6 +8007,42 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 30 25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "61300411121"
+			(at 30 25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 30 25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 30 25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1dd5587d-3557-40a7-9cf0-3f1bc3186299")
 		)
@@ -7985,7 +8147,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LDR07"
+		(property "Value" "10K"
 			(at 45.4 35.2699 0)
 			(effects
 				(font
@@ -8012,7 +8174,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "light dependent resistor"
+		(property "Description" "Light Dependent Resistor 10K 150V"
+			(at 43.5 34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LDR Photoresistors"
+			(at 43.5 34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "LDR07"
+			(at 43.5 34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Company" ""
+			(at 43.5 34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "Unknown"
 			(at 43.5 34 0)
 			(effects
 				(font
@@ -8103,6 +8300,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Unknown"
+			(at 255 113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 255 113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "Unknown"
+			(at 255 113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "eBay"
+			(at 255 113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -8389,7 +8622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 100V X7R 0805"
 			(at 178 33.5 0)
 			(effects
 				(font
@@ -8414,7 +8647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL21B104KCFNNNE"
+		(property "Manufacturer PN" "CL21B104KCFNNNE"
 			(at 178 33.5 0)
 			(effects
 				(font
@@ -8424,6 +8657,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 178 33.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
 			(at 178 33.5 0)
 			(effects
 				(font
@@ -8558,7 +8800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 100V X7R 0805"
 			(at 129.5 181 0)
 			(effects
 				(font
@@ -8583,7 +8825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL21B104KCFNNNE"
+		(property "Manufacturer PN" "CL21B104KCFNNNE"
 			(at 129.5 181 0)
 			(effects
 				(font
@@ -8593,6 +8835,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 129.5 181 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
 			(at 129.5 181 0)
 			(effects
 				(font
@@ -8803,6 +9054,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 267.5 281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -9136,7 +9396,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 60 158 0)
+		(at 59.92 158 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9145,7 +9405,7 @@
 		(dnp no)
 		(uuid "74bf7203-9141-44aa-a185-de859224a9ed")
 		(property "Reference" "J3"
-			(at 55 159.5 0)
+			(at 54.92 159.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,7 +9413,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 50 156 0)
+			(at 49.92 156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9161,7 +9421,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 60 158 0)
+			(at 59.92 158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9170,7 +9430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60 158 0)
+			(at 59.92 158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +9439,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 60 158 0)
+			(at 59.92 158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9188,11 +9448,47 @@
 			)
 		)
 		(property "Company" ""
-			(at 60 158 0)
+			(at 59.92 158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 59.92 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "61300411121"
+			(at 59.92 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 59.92 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 59.92 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -9389,7 +9685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 18K OHM 5% 1/8W 0805"
 			(at 294.46 237.5 0)
 			(effects
 				(font
@@ -9406,7 +9702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RC0805JR-0718KL"
+		(property "Manufacturer PN" "RC0805JR-0718KL"
 			(at 294.46 237.5 90)
 			(effects
 				(font
@@ -9417,6 +9713,23 @@
 		)
 		(property "Supplier" "Digikey"
 			(at 294.46 237.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Company" ""
+			(at 294.46 237.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 294.46 237.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,7 +9991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 100V X7R 0805"
 			(at 178 158 0)
 			(effects
 				(font
@@ -9703,7 +10016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL21B104KCFNNNE"
+		(property "Manufacturer PN" "CL21B104KCFNNNE"
 			(at 178 158 0)
 			(effects
 				(font
@@ -9713,6 +10026,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 178 158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
 			(at 178 158 0)
 			(effects
 				(font
@@ -9847,7 +10169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 100V X7R 0805"
 			(at 176 130.5 0)
 			(effects
 				(font
@@ -9872,7 +10194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL21B104KCFNNNE"
+		(property "Manufacturer PN" "CL21B104KCFNNNE"
 			(at 176 130.5 0)
 			(effects
 				(font
@@ -9882,6 +10204,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 176 130.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
 			(at 176 130.5 0)
 			(effects
 				(font
@@ -9950,7 +10281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 18K OHM 5% 1/8W 0805"
 			(at 297.5 178 0)
 			(effects
 				(font
@@ -9968,6 +10299,24 @@
 			)
 		)
 		(property "Manufacturer PN" "RC0805JR-0718KL"
+			(at 297.5 178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 297.5 178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
 			(at 297.5 178 90)
 			(effects
 				(font
@@ -10054,7 +10403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "122TR"
+		(property "Manufacturer PN" "122TR"
 			(at 35 265.5 0)
 			(effects
 				(font
@@ -10078,6 +10427,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 35.5 260.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10155,7 +10513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "122TR"
+		(property "Manufacturer PN" "122TR"
 			(at 19 278 0)
 			(effects
 				(font
@@ -10179,6 +10537,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 19.5 273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10256,7 +10623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "122TR"
+		(property "Manufacturer PN" "122TR"
 			(at 19 265.5 0)
 			(effects
 				(font
@@ -10280,6 +10647,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 19.5 260.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10549,7 +10925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "122TR"
+		(property "Manufacturer PN" "122TR"
 			(at 35 278 0)
 			(effects
 				(font
@@ -10573,6 +10949,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 35.5 273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10634,7 +11019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 100V X7R 0805"
 			(at 174.5 259 0)
 			(effects
 				(font
@@ -10659,7 +11044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL21B104KCFNNNE"
+		(property "Manufacturer PN" "CL21B104KCFNNNE"
 			(at 174.5 259 0)
 			(effects
 				(font
@@ -10669,6 +11054,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 174.5 259 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
 			(at 174.5 259 0)
 			(effects
 				(font
@@ -10803,7 +11197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 100V X7R 0805"
 			(at 129.5 56.5 0)
 			(effects
 				(font
@@ -10828,7 +11222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL21B104KCFNNNE"
+		(property "Manufacturer PN" "CL21B104KCFNNNE"
 			(at 129.5 56.5 0)
 			(effects
 				(font
@@ -10838,6 +11232,15 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
+			(at 129.5 56.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
 			(at 129.5 56.5 0)
 			(effects
 				(font
@@ -11050,6 +11453,42 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 135.5 100.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 135.5 100.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "PCF8574ADWR"
+			(at 135.5 100.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 135.5 100.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "ef594c50-2fd8-4a58-bbb4-be0a056516a8")
 		)
@@ -11155,7 +11594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "K155ID1 NIXIE TUBE DRIVER"
+		(property "Description" "K155ID1 NIXIE TUBE DRIVER IC"
 			(at 148.5 203.5 0)
 			(effects
 				(font
@@ -11198,6 +11637,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Unknown"
+			(at 183 196.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 183 196.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "Unknown"
+			(at 183 196.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "eBay"
+			(at 183 196.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -11366,7 +11841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 18K OHM 5% 1/8W 0805"
 			(at 297.5 53.5 0)
 			(effects
 				(font
@@ -11384,6 +11859,24 @@
 			)
 		)
 		(property "Manufacturer PN" "RC0805JR-0718KL"
+			(at 297.5 53.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 297.5 53.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
 			(at 297.5 53.5 90)
 			(effects
 				(font
@@ -11604,6 +12097,42 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Unknown"
+			(at 255 178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 255 178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "Unknown"
+			(at 255 178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "eBay"
+			(at 255 178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "9b580983-c72d-403a-833f-148e064cfccd")
 		)
@@ -11694,7 +12223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 18K OHM 5% 1/8W 0805"
 			(at 297 113 0)
 			(effects
 				(font
@@ -11711,7 +12240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RC0805JR-0718KL"
+		(property "Manufacturer PN" "RC0805JR-0718KL"
 			(at 297 113 90)
 			(effects
 				(font
@@ -11722,6 +12251,23 @@
 		)
 		(property "Supplier" "Digikey"
 			(at 297 113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Company" ""
+			(at 297 113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 297 113 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +12402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "K155ID1 NIXIE TUBE DRIVER"
+		(property "Description" "K155ID1 NIXIE TUBE DRIVER IC"
 			(at 148.5 79 0)
 			(effects
 				(font
@@ -11874,7 +12420,7 @@
 				(justify left)
 			)
 		)
-		(property "MANUFACTURER" "MSI"
+		(property "Manufacturer" "Unknown"
 			(at 139.4 72 0)
 			(effects
 				(font
@@ -11899,6 +12445,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 183 72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "Unknown"
+			(at 183 72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "eBay"
+			(at 183 72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -12017,6 +12590,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 135.5 225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 135.5 225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "PCF8574ADWR"
+			(at 135.5 225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 135.5 225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "13"
@@ -12143,6 +12752,42 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Unknown"
+			(at 255 237.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 255 237.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "Unknown"
+			(at 255 237.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "eBay"
+			(at 255 237.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "8"
