@@ -14514,7 +14514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 100V X7R 0805"
 			(at 211 78 0)
 			(effects
 				(font
@@ -14539,7 +14539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL21B104KCFNNNE"
+		(property "Manufacturer" "Samsung"
 			(at 211 78 0)
 			(effects
 				(font
@@ -14548,7 +14548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer PN" "CL21B104KCFNNNE"
 			(at 211 78 0)
 			(effects
 				(font
@@ -14590,7 +14590,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "Conn_01x04"
 			(at 386.22 144.9601 0)
 			(effects
 				(font
@@ -14617,7 +14617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN HDR 4POS 0.1 TIN PCB"
 			(at 385 147.5 0)
 			(effects
 				(font
@@ -14632,6 +14632,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 385 147.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 385 147.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "PPTC041LFBN-RC"
+			(at 385 147.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -14700,7 +14727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 366.5 75.5 0)
 			(effects
 				(font
@@ -14727,6 +14754,24 @@
 			)
 		)
 		(property "Supplier P/N" "541-4131"
+			(at 366.5 75.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 366.5 75.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "RC0805FR-1310KL"
 			(at 366.5 75.5 0)
 			(effects
 				(font
@@ -14832,7 +14877,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "Conn_01x04"
 			(at 390.22 77.9601 0)
 			(effects
 				(font
@@ -14859,7 +14904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "CONN HDR 4POS 0.1 TIN PCB"
 			(at 389 80.5 0)
 			(effects
 				(font
@@ -14874,6 +14919,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Sullins Connector Solutions"
+			(at 389 80.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 389 80.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "PPTC041LFBN-RC"
+			(at 389 80.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -14941,7 +15013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PC TEST POINT"
 			(at 197 97.5 0)
 			(effects
 				(font
@@ -14966,7 +15038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RCUCTE"
+		(property "Supplier" "Digikey"
 			(at 197 97.5 0)
 			(effects
 				(font
@@ -14975,7 +15047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Manufacturer PN" "RCUCTE"
 			(at 197 97.5 0)
 			(effects
 				(font
@@ -15041,7 +15113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 266 34.5 0)
 			(effects
 				(font
@@ -15068,6 +15140,24 @@
 			)
 		)
 		(property "Supplier P/N" "541-4131"
+			(at 266 34.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 266 34.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "RC0805FR-1310KL"
 			(at 266 34.5 0)
 			(effects
 				(font
@@ -15151,16 +15241,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 292 237 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer" "Generic"
 			(at 292 237 0)
 			(effects
 				(font
@@ -15170,6 +15251,15 @@
 			)
 		)
 		(property "Supplier" "Terminal Curiosity"
+			(at 292 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "PL9823"
 			(at 292 237 0)
 			(effects
 				(font
@@ -15371,7 +15461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PC TEST POINT"
 			(at 199.5 154 0)
 			(effects
 				(font
@@ -15396,7 +15486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RCUCTE"
+		(property "Supplier" "Digikey"
 			(at 199.5 154 0)
 			(effects
 				(font
@@ -15405,7 +15495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Manufacturer PN" "RCUCTE"
 			(at 199.5 154 0)
 			(effects
 				(font
@@ -15537,7 +15627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 100V X7R 0805"
 			(at 133 38.5 0)
 			(effects
 				(font
@@ -15562,7 +15652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL21B104KCFNNNE"
+		(property "Manufacturer" "Samsung"
 			(at 133 38.5 0)
 			(effects
 				(font
@@ -15571,7 +15661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer PN" "CL21B104KCFNNNE"
 			(at 133 38.5 0)
 			(effects
 				(font
@@ -15640,7 +15730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 4.7K OHM 5% 1/8W 0805"
 			(at 345.5 130.5 0)
 			(effects
 				(font
@@ -15667,6 +15757,24 @@
 			)
 		)
 		(property "Supplier P/N" "541-4131"
+			(at 345.5 130.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 345.5 130.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "RC0805JR-074K7L"
 			(at 345.5 130.5 0)
 			(effects
 				(font
@@ -15928,7 +16036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 302 178.5 0)
 			(effects
 				(font
@@ -15955,6 +16063,24 @@
 			)
 		)
 		(property "Supplier P/N" "541-4131"
+			(at 302 178.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 302 178.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "RC0805FR-1310KL"
 			(at 302 178.5 0)
 			(effects
 				(font
@@ -16158,7 +16284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 470 OHM 1% 1/8W 0805"
 			(at 251 46.5 0)
 			(effects
 				(font
@@ -16184,7 +16310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RC0805FR-07470RL"
+		(property "Supplier" "Digikey"
 			(at 251 46.5 90)
 			(effects
 				(font
@@ -16193,7 +16319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Manufacturer PN" "RC0805FR-07470RL"
 			(at 251 46.5 90)
 			(effects
 				(font
@@ -16262,7 +16388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP ALUM 470UF 20% 16V SMD"
 			(at 140.5 39 0)
 			(effects
 				(font
@@ -16287,7 +16413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "UWT1C471MNL1GS"
+		(property "Supplier" "Digikey"
 			(at 140.5 39 0)
 			(effects
 				(font
@@ -16296,7 +16422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Manufacturer PN" "UWT1C471MNL1GS"
 			(at 140.5 39 0)
 			(effects
 				(font
@@ -16366,6 +16492,33 @@
 		)
 		(property "Description" "NCH8200HV HV power supply 2.5-15VDC to 170V"
 			(at 297.5 40 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Unknown"
+			(at 297.5 38.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Amazon"
+			(at 297.5 38.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ASSY_NCH8200HV"
+			(at 297.5 38.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16452,6 +16605,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 351 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Terminal Curiosity"
+			(at 351 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "PL9823"
+			(at 351 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -16619,7 +16799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "IRLML6344TRPBF"
+		(property "Manufacturer" "Infineon"
 			(at 289.5 184.5 0)
 			(effects
 				(font
@@ -16628,8 +16808,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Infineon"
-			(at 289.5 184.5 0)
+		(property "Manufacturer PN" "IRLML6244TRPBF"
+			(at 289.5 184.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16700,7 +16880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 4.7K OHM 5% 1/8W 0805"
 			(at 106.5 24 0)
 			(effects
 				(font
@@ -16727,6 +16907,24 @@
 			)
 		)
 		(property "Supplier P/N" "541-4131"
+			(at 106.5 24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 106.5 24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "RC0805JR-074K7L"
 			(at 106.5 24 0)
 			(effects
 				(font
@@ -16796,7 +16994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 5POS 2.5MM"
 			(at 51 29.5 0)
 			(effects
 				(font
@@ -16811,6 +17009,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 51 29.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 51 29.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "B5B-XH-A"
+			(at 51 29.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17176,7 +17401,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "4090"
 			(at 29.25 19.44 0)
 			(effects
 				(font
@@ -17202,7 +17427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ADAFRUIT USB C BREAKOUT BOARD"
 			(at 33.5 21 0)
 			(effects
 				(font
@@ -17217,6 +17442,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Adafruit"
+			(at 33.5 21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 33.5 21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "4090"
+			(at 33.5 21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -17334,7 +17586,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "IRLML6402TRPBF"
+		(property "Manufacturer" "Infineon"
+			(at 279 30 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "IRLML6402TRPBF"
 			(at 279 30 90)
 			(effects
 				(font
@@ -17406,7 +17667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 279 178.5 0)
 			(effects
 				(font
@@ -17433,6 +17694,24 @@
 			)
 		)
 		(property "Supplier P/N" "541-4131"
+			(at 279 178.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 279 178.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "RC0805FR-1310KL"
 			(at 279 178.5 0)
 			(effects
 				(font
@@ -17590,7 +17869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "NANOSMDC150F-2"
+		(property "Supplier" "Digikey"
 			(at 125 34.5 90)
 			(effects
 				(font
@@ -17599,7 +17878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Manufacturer PN" "NANOSMDC150F-2"
 			(at 125 34.5 90)
 			(effects
 				(font
@@ -17713,7 +17992,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Terminal Curiosity"
+		(property "Supplier" "Amazon"
 			(at 204 146.5 0)
 			(effects
 				(font
@@ -17722,7 +18001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "ESP32-WROOM-32_DEVKIT"
+		(property "Manufacturer PN" "ESP32-WROOM-32_DEVKIT"
 			(at 204 146.5 0)
 			(effects
 				(font
@@ -18084,7 +18363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 4.7K OHM 5% 1/8W 0805"
 			(at 110.5 24 0)
 			(effects
 				(font
@@ -18111,6 +18390,24 @@
 			)
 		)
 		(property "Supplier P/N" "541-4131"
+			(at 110.5 24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 110.5 24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "RC0805JR-074K7L"
 			(at 110.5 24 0)
 			(effects
 				(font
@@ -18283,6 +18580,15 @@
 			)
 		)
 		(property "Manufacturer" "Infineon"
+			(at 276.5 46.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "IRLML6244TRPBF"
 			(at 276.5 46.5 0)
 			(effects
 				(font
@@ -18676,7 +18982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 4.7K OHM 5% 1/8W 0805"
 			(at 336 130.5 0)
 			(effects
 				(font
@@ -18703,6 +19009,24 @@
 			)
 		)
 		(property "Supplier P/N" "541-4131"
+			(at 336 130.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 336 130.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "RC0805JR-074K7L"
 			(at 336 130.5 0)
 			(effects
 				(font
@@ -18770,7 +19094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PC TEST POINT"
 			(at 186.5 97.5 0)
 			(effects
 				(font
@@ -18795,7 +19119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RCUCTE"
+		(property "Supplier" "Digikey"
 			(at 186.5 97.5 0)
 			(effects
 				(font
@@ -18804,7 +19128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Manufacturer PN" "RCUCTE"
 			(at 186.5 97.5 0)
 			(effects
 				(font
@@ -18949,6 +19273,33 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Generic"
+			(at 322.5 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Terminal Curiosity"
+			(at 322.5 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "PL9823"
+			(at 322.5 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "bb178527-ff62-492c-a9f1-980d6fde0577")
 		)
@@ -19015,7 +19366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
 			(at 264.5 51 0)
 			(effects
 				(font
@@ -19042,6 +19393,24 @@
 			)
 		)
 		(property "Supplier P/N" "541-4131"
+			(at 264.5 51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 264.5 51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "RC0805FR-1310KL"
 			(at 264.5 51 0)
 			(effects
 				(font
@@ -19109,7 +19478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PC TEST POINT"
 			(at 204 154 0)
 			(effects
 				(font
@@ -19134,7 +19503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RCUCTE"
+		(property "Supplier" "Digikey"
 			(at 204 154 0)
 			(effects
 				(font
@@ -19143,7 +19512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Manufacturer PN" "RCUCTE"
 			(at 204 154 0)
 			(effects
 				(font
@@ -19208,7 +19577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 470 OHM 1% 1/8W 0805"
 			(at 272.5 234.5 0)
 			(effects
 				(font
@@ -19234,7 +19603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RC0805FR-07470RL"
+		(property "Supplier" "Digikey"
 			(at 272.5 234.5 90)
 			(effects
 				(font
@@ -19243,7 +19612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Digikey"
+		(property "Manufacturer PN" "RC0805FR-07470RL"
 			(at 272.5 234.5 90)
 			(effects
 				(font
@@ -19389,6 +19758,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "Generic"
+			(at 379.5 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Terminal Curiosity"
+			(at 379.5 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "PL9823"
+			(at 379.5 237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -19657,7 +20053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 5POS 2.5MM"
 			(at 84.5 37 0)
 			(effects
 				(font
@@ -19672,6 +20068,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 84.5 37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 84.5 37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "B5B-XH-A"
+			(at 84.5 37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
