@@ -7490,7 +7490,7 @@
 		)
 	)
 	(gr_text "Curiosity"
-		(at 130.5 47.75 355)
+		(at 130.5 47.77 355)
 		(layer "F.SilkS")
 		(uuid "751c8dbf-08aa-4041-9f56-a18ff963a038")
 		(effects
@@ -7503,7 +7503,7 @@
 		)
 	)
 	(gr_text "Nixray"
-		(at 119 152.5 353)
+		(at 119 152.7 353)
 		(layer "F.SilkS")
 		(uuid "be5b936b-cd44-47c6-8ae5-99f032252886")
 		(effects
@@ -7516,7 +7516,7 @@
 		)
 	)
 	(gr_text "Terminal"
-		(at 119.75 48.75 5)
+		(at 119.75 48.73 5)
 		(layer "F.SilkS")
 		(uuid "ecc3dd0a-6b13-41b6-9347-3f79f3f5d215")
 		(effects
@@ -7807,25 +7807,6 @@
 		(uuid "161df2a5-7ec4-4de2-847e-bfbdfaca1bac")
 	)
 	(via
-		(at 116.153181 151.677032)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(net 1)
-		(uuid "1a08509d-d3f2-4490-8054-c75f447def26")
-	)
-	(via
 		(at 165.25 76.5)
 		(size 0.6)
 		(drill 0.3)
@@ -8054,7 +8035,7 @@
 		(uuid "45f3b04a-db99-4e0d-830f-1797f1385ddd")
 	)
 	(via
-		(at 136.983151 46.9577)
+		(at 136.983151 46.25)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8111,7 +8092,7 @@
 		(uuid "4cf2e50a-9631-47ca-bdfc-82fe7bb2f7b1")
 	)
 	(via
-		(at 136.983151 153.0423)
+		(at 137.5 154.25)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -8244,7 +8225,7 @@
 		(uuid "65b20270-435c-4289-8dd8-7e8ebe0e3af3")
 	)
 	(via
-		(at 123.016849 46.9577)
+		(at 123 46.25)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -9012,7 +8993,7 @@
 		(uuid "e88d1782-a528-4e25-96ad-8a92a3cc541c")
 	)
 	(via
-		(at 123.016849 153.0423)
+		(at 124.25 154.25)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
