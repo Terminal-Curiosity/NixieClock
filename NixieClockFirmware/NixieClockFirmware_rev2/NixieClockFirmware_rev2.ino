@@ -13,7 +13,7 @@ const int LDR_BRIGHT_ADC_MIN = 100;  // Example: ADC reading for very bright lig
 const int LDR_DARK_ADC_MAX = 3200;  // Example: ADC reading for very dark light
 
 // --- PWM Configuration ---
-const long NIXIE_TUBE_REFRESH_TIME = 5000; // 5ms refresh period = 200Hz nixie tube refresh rate
+const long NIXIE_TUBE_REFRESH_TIME = 1000; // 500us refresh period = 2kHz nixie tube refresh rate to protect against cathode poisoning
 const int MIN_BRIGHTNESS_PERCENT = 10; // Minimum duty cycle percentage
 const int MAX_BRIGHTNESS_PERCENT = 100; // Maximum duty cycle percentage
 
@@ -67,20 +67,20 @@ void setup() {
 
 
   // --- PWM Timer Setup ---  
-  // 1. Create the periodic timer for starting the ON pulse (pwm_on_timer_handle)
-  //create a data object of type "esp_timer_create_args_t". the object is named "pwm_on_timer_args". it contains a pointer to "pwm_on_timer_callback", which is the ISR function. the timer is named "pwm_on_timer".
-  esp_timer_create_args_t pwm_on_timer_args = {
-      .callback = &pwm_on_timer_callback, // Function called when timer fires
-      .name = "pwm_on_timer"             
-  };
-  esp_timer_create(&pwm_on_timer_args, &pwm_on_timer_handle);
-
-  // 2. Create the one-shot timer for ending the ON pulse (pwm_off_timer_handle)
-  esp_timer_create_args_t pwm_off_timer_args = {
-      .callback = &pwm_off_timer_callback, 
-      .name = "pwm_off_timer"            
-  };
-  esp_timer_create(&pwm_off_timer_args, &pwm_off_timer_handle);
+//  // 1. Create the periodic timer for starting the ON pulse (pwm_on_timer_handle)
+//  //create a data object of type "esp_timer_create_args_t". the object is named "pwm_on_timer_args". it contains a pointer to "pwm_on_timer_callback", which is the ISR function. the timer is named "pwm_on_timer".
+//  esp_timer_create_args_t pwm_on_timer_args = {
+//      .callback = &pwm_on_timer_callback, // Function called when timer fires
+//      .name = "pwm_on_timer"             
+//  };
+//  esp_timer_create(&pwm_on_timer_args, &pwm_on_timer_handle);
+//
+//  // 2. Create the one-shot timer for ending the ON pulse (pwm_off_timer_handle)
+//  esp_timer_create_args_t pwm_off_timer_args = {
+//      .callback = &pwm_off_timer_callback, 
+//      .name = "pwm_off_timer"            
+//  };
+//  esp_timer_create(&pwm_off_timer_args, &pwm_off_timer_handle);
 
   // 3. Create the periodic timer for counting 1 second pulses
   esp_timer_create_args_t one_sec_tick_timer_args = {
@@ -90,7 +90,7 @@ void setup() {
   esp_timer_create(&one_sec_tick_timer_args, &one_sec_tick_timer_handle);
 
   // Start the main periodic timer; it will fire every PWM_PERIOD_US (e.g., 5ms)
-  esp_timer_start_periodic(pwm_on_timer_handle, NIXIE_TUBE_REFRESH_TIME);
+  //esp_timer_start_periodic(pwm_on_timer_handle, NIXIE_TUBE_REFRESH_TIME); // turned off PWM timer as it turns out its generally better to run tubes at DC 
   esp_timer_start_periodic(one_sec_tick_timer_handle, 1000000);
   Serial.println("PWM timers initialized and started.");
  
@@ -185,64 +185,77 @@ void writePcf8574(byte address, byte data) {
   Wire.endTransmission();           
 }
 
+
+//turns out its better to run the tubes at 2mADC and not bother with PWM. low current and repeated strikes will harm the tubes more over the long term. 
+//change the code to never activate the PWM off timer
+
 // --- PWM Timer Callback for ON Pulse (Runs Periodically) ---
 // This function is executed by the periodic timer at the start of each PWM cycle.
-void IRAM_ATTR pwm_on_timer_callback(void* arg) {
-  // Calculate the duration (in microseconds) for which the tubes should be ON during this cycle.
-  long on_time_us = (long)((float)current_brightness_percent / 100.0 * NIXIE_TUBE_REFRESH_TIME);
+//void IRAM_ATTR pwm_on_timer_callback(void* arg) {
+//  // Calculate the duration (in microseconds) for which the tubes should be ON during this cycle.
+//  long on_time_us = (long)((float)current_brightness_percent / 100.0 * NIXIE_TUBE_REFRESH_TIME);
+//
+//  // --- PCF8574 Data Construction and Writing (ADAPT THIS SECTION!) ---
+//  // This is the most crucial part for your specific hardware.
+//  // One PCF8574 (8 pins) can drive TWO K155ID1s (4 input pins each).
+//  // Assuming PCF8574_ADDRESS_1 controls K155ID1 for tube 1 (pins P0-P3) and tube 2 (pins P4-P7).
+//  // Similarly for PCF8574_ADDRESS_2 and tubes 3 & 4.
+//  // Combine the BCD values for two tubes into a single byte for each PCF8574.
+//  byte data_for_pcf1 = (digitCode[current_digit_bcd_tube2] << 4) | digitCode[current_digit_bcd_tube1];
+//
+//  writePcf8574(PCF8574_ADDRESS_1, data_for_pcf1);
+//
+//  byte data_for_pcf2 = (current_digit_bcd_tube4 << 4) | current_digit_bcd_tube3;
+//  //writePcf8574(PCF8574_ADDRESS_2, data_for_pcf2);
+//  // --- END ADAPTATION SECTION ---
+//
+//  // If brightness is 100%, the tubes stay ON for the entire PWM_PERIOD_US.
+//  // In this case, we don't need to schedule the 'off' timer, as they will be
+//  // turned on again by the next periodic call anyway.
+//  if (current_brightness_percent < MAX_BRIGHTNESS_PERCENT) {
+//    // If on_time_us is 0 (0% duty cycle), immediately turn off.
+//    // This handles the edge case where brightness is set to effectively 0.
+//    if (on_time_us == 0) {
+//      byte data_for_pcf_off = (K155ID1_OFF_CODE << 4) | K155ID1_OFF_CODE; 
+//      writePcf8574(PCF8574_ADDRESS_1, data_for_pcf_off);
+//      //writePcf8574(PCF8574_ADDRESS_2, data_for_pcf_off);
+//    } else {
+//      if( on_time_us < 50)
+//      {on_time_us = 50;}
+//      // Start the one-shot timer to turn OFF the tubes after 'on_time_us' has passed.
+//      esp_timer_start_once(pwm_off_timer_handle, on_time_us);
+//    }
+//  }
+//}
 
-  // --- PCF8574 Data Construction and Writing (ADAPT THIS SECTION!) ---
-  // This is the most crucial part for your specific hardware.
-  // One PCF8574 (8 pins) can drive TWO K155ID1s (4 input pins each).
-  // Assuming PCF8574_ADDRESS_1 controls K155ID1 for tube 1 (pins P0-P3) and tube 2 (pins P4-P7).
-  // Similarly for PCF8574_ADDRESS_2 and tubes 3 & 4.
-  // Combine the BCD values for two tubes into a single byte for each PCF8574.
-  byte data_for_pcf1 = (digitCode[current_digit_bcd_tube2] << 4) | digitCode[current_digit_bcd_tube1];
+
+//// --- PWM Timer Callback for OFF Pulse (Runs Once) ---
+//// This function is executed by the one-shot timer after the 'ON' duration.
+//void IRAM_ATTR pwm_off_timer_callback(void* arg) {
+//  // Construct the data byte to send to the PCF8574s to turn the tubes OFF.
+//  // This combines the K155ID1_OFF_CODE for both K155ID1s on a single PCF8574.
+//  byte data_for_pcf_off = (K155ID1_OFF_CODE << 4) | K155ID1_OFF_CODE; 
+//
+//  // Send the "OFF" BCD code to both PCF8574 chips.
+//  writePcf8574(PCF8574_ADDRESS_1, data_for_pcf_off);
+//  //writePcf8574(PCF8574_ADDRESS_2, data_for_pcf_off);
+//}
+
+void IRAM_ATTR one_sec_tick_timer_callback(void* arg)
+{
+  current_digit_bcd_tube1 = current_digit_bcd_tube1 + 1;
+  if(current_digit_bcd_tube1 == 0x0A)
+  {
+    current_digit_bcd_tube1 = 0;
+  }
+
+    byte data_for_pcf1 = (digitCode[current_digit_bcd_tube2] << 4) | digitCode[current_digit_bcd_tube1];
 
   writePcf8574(PCF8574_ADDRESS_1, data_for_pcf1);
 
   byte data_for_pcf2 = (current_digit_bcd_tube4 << 4) | current_digit_bcd_tube3;
   //writePcf8574(PCF8574_ADDRESS_2, data_for_pcf2);
-  // --- END ADAPTATION SECTION ---
-
-  // If brightness is 100%, the tubes stay ON for the entire PWM_PERIOD_US.
-  // In this case, we don't need to schedule the 'off' timer, as they will be
-  // turned on again by the next periodic call anyway.
-  if (current_brightness_percent < MAX_BRIGHTNESS_PERCENT) {
-    // If on_time_us is 0 (0% duty cycle), immediately turn off.
-    // This handles the edge case where brightness is set to effectively 0.
-    if (on_time_us == 0) {
-      byte data_for_pcf_off = (K155ID1_OFF_CODE << 4) | K155ID1_OFF_CODE; 
-      writePcf8574(PCF8574_ADDRESS_1, data_for_pcf_off);
-      //writePcf8574(PCF8574_ADDRESS_2, data_for_pcf_off);
-    } else {
-      // Start the one-shot timer to turn OFF the tubes after 'on_time_us' has passed.
-      esp_timer_start_once(pwm_off_timer_handle, on_time_us);
-    }
-  }
-}
-
-
-// --- PWM Timer Callback for OFF Pulse (Runs Once) ---
-// This function is executed by the one-shot timer after the 'ON' duration.
-void IRAM_ATTR pwm_off_timer_callback(void* arg) {
-  // Construct the data byte to send to the PCF8574s to turn the tubes OFF.
-  // This combines the K155ID1_OFF_CODE for both K155ID1s on a single PCF8574.
-  byte data_for_pcf_off = (K155ID1_OFF_CODE << 4) | K155ID1_OFF_CODE; 
-
-  // Send the "OFF" BCD code to both PCF8574 chips.
-  writePcf8574(PCF8574_ADDRESS_1, data_for_pcf_off);
-  //writePcf8574(PCF8574_ADDRESS_2, data_for_pcf_off);
-}
-
-void IRAM_ATTR one_sec_tick_timer_callback(void* arg)
-{
-  current_digit_bcd_tube1 = current_digit_bcd_tube1 + 1;
-
-  if(current_digit_bcd_tube1 == 0x0A)
-  {
-    current_digit_bcd_tube1 = 0;
-  }
+  
   led_update = 1;
 }
 
@@ -349,6 +362,5 @@ uint32_t wheel(byte pos) {
   }
 }
 
-//tube PWM frequency of 100Hz is generally imperceptible. 200Hz generally better but 100 minimum
 
 */
