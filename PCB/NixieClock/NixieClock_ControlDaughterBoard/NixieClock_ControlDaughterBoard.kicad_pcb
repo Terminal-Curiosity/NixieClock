@@ -5094,7 +5094,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at -3.25 0 0)
+			(at 3 -0.75 0)
 			(layer "F.SilkS")
 			(uuid "c2b76836-ee42-4358-9384-fe4a4efb92e1")
 			(effects
@@ -10392,6 +10392,18 @@
 		(at 115.5 82.25 0)
 		(layer "F.SilkS")
 		(uuid "586eda24-c174-4b68-be7a-b465d83abf11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2025"
+		(at 142.75 82.25 0)
+		(layer "F.SilkS")
+		(uuid "c56324ca-97dd-4b6e-9912-5e3a1f99d37e")
 		(effects
 			(font
 				(size 1 1)
