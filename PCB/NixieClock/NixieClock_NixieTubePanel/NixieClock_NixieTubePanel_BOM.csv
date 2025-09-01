@@ -3,7 +3,7 @@
 "U5,U6","PCF8574","PCF8574 8BIT I2C PORT EXPANDER","2","Texas Instruments","PCF8574ADWR","Digikey"
 "U1,U2,U3,U4","K155ID1","K155ID1 NIXIE TUBE DRIVER IC","4","Unknown","Unknown","eBay"
 "R18","10K","Light Dependent Resistor 10K 150V","1","LDR Photoresistors","LDR07","Unknown"
-"R9,R10,R11,R16","18K","RES 18K OHM 5% 1/8W 0805","4","YAGEO","RC0805JR-0718KL","Digikey"
+"R9,R10,R11,R16","18K","RES 18K OHM 5% 1/4W 1206","4","YAGEO","RC1206JR-0718KL","Digikey"
 "N1,N2,N3,N4","TUBE_IN-12A_Nixie","IN-12A Nixie tube","4","Unknown","Unknown","eBay"
 "J3,J4","Conn_01x04_Pin","Generic connector, single row, 01x04, script generated","2","Wurth Elektronik","61300411121","Digikey"
 "C5,C6,C7,C8,C9,C10","100nF","CAP CER 0.1UF 100V X7R 0805","6","Samsung","CL21B104KCFNNNE","Digikey"
