@@ -6,3 +6,11 @@
 *.kicad_prl
 fp-info-cache
 *.zip
+/PCB/NixieClock/NixieClock_NixieTubePanel/gerber_to_order
+PCB/NixieClock/NixieClock_ControlDaughterBoard/\#auto_saved_files\#
+/PCB/NixieClock/NixieClock_NixieTubePanel/Outputs
+*.pdf
+PCB/NixieClock/NixieClock_NixieTubePanel/CE3E3V2_NixieClock_NixieTubePanel.3mf
+PCB/NixieClock/NixieClock_NixieTubePanel/NixieClock_NixieTubePanel.stl
+*.stl
+PCB/NixieClock/NixieClock_NixieTubePanel/bom/ibom.html

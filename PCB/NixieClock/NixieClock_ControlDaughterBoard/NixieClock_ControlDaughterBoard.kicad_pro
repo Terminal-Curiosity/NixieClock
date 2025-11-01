@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.6,
-          "width": 3.6
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|121775000|93525000|2d7263b9-24b3-4de1-b58c-f01a8cb62265|00000000-0000-0000-0000-000000000000",
+          "Logo scaled down in size to fit PCBA better"
+        ],
+        [
+          "lib_footprint_mismatch|137750000|111500000|c26e41d0-cfc4-4310-84df-4ef3d6aaeb25|00000000-0000-0000-0000-000000000000",
+          "Scaled down graphic. silkscreen only"
+        ],
+        [
+          "lib_footprint_mismatch|148525000|107800000|b67484f5-3bac-4b76-b34d-b9dca9d99a31|00000000-0000-0000-0000-000000000000",
+          "Removed pin 3 for increased creepage and clearance to HV zone"
+        ],
+        [
+          "lib_footprint_mismatch|168637500|105990000|5cd0b3d3-4c25-4254-9790-3a5c53971358|00000000-0000-0000-0000-000000000000",
+          "Pins remapped for easier routing"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -76,9 +93,9 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "warning",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -123,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.25,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -463,7 +480,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "NixieClock_NixieTubePanel.kicad_pro",
+    "filename": "NixieClock_ControlDaughterBoard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -487,38 +504,32 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
+        "via_drill": 0.3
       },
       {
-        "bus_width": 12,
         "clearance": 0.6,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
-        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "HighVoltage",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -529,139 +540,10 @@
       "+5V": [
         "+5V"
       ],
-      "/+170V": [
-        "HighVoltage"
+      "/5V_IN": [
+        "+5V"
       ],
-      "Net-(N1-'0')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-'1')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-'2')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-'3')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-'4')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-'5')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-'6')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-'7')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-'8')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-'9')": [
-        "HighVoltage"
-      ],
-      "Net-(N1-V+)": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'0')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'1')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'2')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'3')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'4')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'5')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'6')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'7')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'8')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-'9')": [
-        "HighVoltage"
-      ],
-      "Net-(N2-V+)": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'0')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'1')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'2')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'3')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'4')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'5')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'6')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'7')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'8')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-'9')": [
-        "HighVoltage"
-      ],
-      "Net-(N3-V+)": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'0')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'1')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'2')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'3')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'4')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'5')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'6')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'7')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'8')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-'9')": [
-        "HighVoltage"
-      ],
-      "Net-(N4-V+)": [
+      "Net-(A1-VOUT)": [
         "HighVoltage"
       ]
     },
@@ -694,12 +576,126 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Company",
+            "name": "Company",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer",
+            "name": "Manufacturer",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer PN",
+            "name": "Manufacturer PN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "SNAPEDA_PN",
+            "name": "SNAPEDA_PN",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Supplier",
+            "name": "Supplier",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Supplier P/N",
+            "name": "Supplier P/N",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Checked",
+            "name": "Checked",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": false,
+        "name": "TC BOM preset",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -711,25 +707,25 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": false
@@ -744,12 +740,6 @@
           "group_by": false,
           "label": "Company",
           "name": "Company",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
           "show": false
         },
         {
@@ -772,15 +762,15 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer P/N",
-          "name": "Manufacturer P/N",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Manufacturer PN",
           "name": "Manufacturer PN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
         },
         {
           "group_by": false,
@@ -790,8 +780,8 @@
         },
         {
           "group_by": false,
-          "label": "SNAPEDA_PN",
-          "name": "SNAPEDA_PN",
+          "label": "Supplier P/N",
+          "name": "Supplier P/N",
           "show": false
         },
         {
@@ -811,8 +801,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Manufacturer P/N"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -856,7 +846,7 @@
   },
   "sheets": [
     [
-      "c7c03a0d-8a07-4441-b8d8-bf37e4200791",
+      "88d47673-8ea6-4f72-9d7b-645e8caf898d",
       "Root"
     ]
   ],
