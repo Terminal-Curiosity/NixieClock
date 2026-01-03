@@ -4407,7 +4407,7 @@
 	)
 	(text "Off board power source.\nPart included for BOM only"
 		(exclude_from_sim no)
-		(at 25 41 0)
+		(at 44.5 48.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4553,7 +4553,7 @@
 		(uuid "0e783730-5383-4732-964a-53fc13b7cf66")
 	)
 	(no_connect
-		(at 45.92 34.58)
+		(at 73.92 42.08)
 		(uuid "20084ea8-f2a4-43f7-90d6-fb3af7092225")
 	)
 	(no_connect
@@ -4561,11 +4561,11 @@
 		(uuid "21fe28bb-b395-4e31-a0e9-002b36e8b68d")
 	)
 	(no_connect
-		(at 45.92 29.5)
+		(at 73.92 37)
 		(uuid "24a8a9aa-40f9-476a-8b77-65d9d12ef068")
 	)
 	(no_connect
-		(at 35.5 34.5)
+		(at 55 42)
 		(uuid "33b91e0b-9fda-4608-a621-6af2079b919f")
 	)
 	(no_connect
@@ -4579,10 +4579,6 @@
 	(no_connect
 		(at 199 127.5)
 		(uuid "579cbe6e-d548-49ec-bba8-fdc1b3424cef")
-	)
-	(no_connect
-		(at 45.92 26.96)
-		(uuid "57a7cc87-b7d6-4bad-8439-4c8e5f36aaa7")
 	)
 	(no_connect
 		(at 239 144.5)
@@ -4601,7 +4597,7 @@
 		(uuid "82eb5437-74e2-40a7-bb40-3516c6a7ccbf")
 	)
 	(no_connect
-		(at 35.5 36.5)
+		(at 55 44)
 		(uuid "85143a68-95ed-4984-99a3-d799d8ac81de")
 	)
 	(no_connect
@@ -4613,15 +4609,19 @@
 		(uuid "abb74750-03e4-4338-afbf-43ebd5588a83")
 	)
 	(no_connect
-		(at 35.5 28.5)
+		(at 55 36)
 		(uuid "ae8645dc-92bd-4f38-b60e-5803d030a73a")
 	)
 	(no_connect
-		(at 35.5 32.5)
+		(at 55 40)
 		(uuid "b18e9f9b-7e76-4268-8727-0879a41e5620")
 	)
 	(no_connect
-		(at 35.5 26.5)
+		(at 73.92 31.92)
+		(uuid "b68e00f6-5bbd-4c4a-bfa1-ad71bd9553da")
+	)
+	(no_connect
+		(at 55 34)
 		(uuid "ba9f626f-1411-4e74-b802-79b517553997")
 	)
 	(no_connect
@@ -4657,7 +4657,7 @@
 		(uuid "f6308ffb-6b13-4384-acad-17ab3fa429b4")
 	)
 	(no_connect
-		(at 35.5 30.5)
+		(at 55 38)
 		(uuid "fce11e1e-c462-4168-b27e-d28b20560d22")
 	)
 	(no_connect
@@ -4896,16 +4896,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.5 24.5) (xy 40.5 24.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a76c195-d7ed-4395-855c-de7d13affe39")
-	)
-	(wire
-		(pts
 			(xy 91 39.5) (xy 91 44.5)
 		)
 		(stroke
@@ -5046,7 +5036,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.92 32) (xy 45.92 32.04)
+			(xy 73.92 39.5) (xy 73.92 39.54)
 		)
 		(stroke
 			(width 0)
@@ -5086,6 +5076,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.92 34.46) (xy 61 34.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ba038c-aea2-486c-b238-6c73317fcfb0")
+	)
+	(wire
+		(pts
 			(xy 279 39) (xy 279 41.42)
 		)
 		(stroke
@@ -5116,7 +5116,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.5 22.5) (xy 42.5 22.5)
+			(xy 55 30) (xy 58.5 30)
 		)
 		(stroke
 			(width 0)
@@ -5166,13 +5166,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.5 24.42) (xy 45.92 24.42)
+			(xy 61 32) (xy 55 32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "541c08d5-17d5-4d97-88b2-9b1fd6c8cf93")
+		(uuid "53f9b414-dcd9-4596-82ba-b5352a865978")
 	)
 	(wire
 		(pts
@@ -5283,6 +5283,16 @@
 			(type default)
 		)
 		(uuid "6ba3dcd1-588d-4ff1-82bc-27558d114acc")
+	)
+	(wire
+		(pts
+			(xy 61 34.46) (xy 61 32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd2e66d-40e7-4b34-8f7f-64159d5f888f")
 	)
 	(wire
 		(pts
@@ -5506,7 +5516,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.5 32) (xy 45.92 32)
+			(xy 58.5 39.5) (xy 73.92 39.5)
 		)
 		(stroke
 			(width 0)
@@ -6046,7 +6056,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.5 22.5) (xy 42.5 32)
+			(xy 58.5 30) (xy 58.5 39.5)
 		)
 		(stroke
 			(width 0)
@@ -6193,16 +6203,6 @@
 			(type default)
 		)
 		(uuid "fbcafaf2-93f7-4143-852f-833de03c6658")
-	)
-	(wire
-		(pts
-			(xy 40.5 24.5) (xy 40.5 24.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc76da4f-dbd1-441e-a9ac-acb140b5ecc0")
 	)
 	(wire
 		(pts
@@ -16900,16 +16900,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 51 29.5 0)
+		(at 79 37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64c0ff68-69e5-4629-9218-b980228aff47")
 		(property "Reference" "J2"
-			(at 53.23 28.2299 0)
+			(at 77.5 29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16918,7 +16917,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 53.23 30.7699 0)
+			(at 79 55.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16927,7 +16926,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
-			(at 51 29.5 0)
+			(at 79 37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16936,7 +16935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 51 29.5 0)
+			(at 79 37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16945,7 +16944,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 5POS 2.5MM"
-			(at 51 29.5 0)
+			(at 79 37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16954,7 +16953,7 @@
 			)
 		)
 		(property "Company" ""
-			(at 51 29.5 0)
+			(at 79 37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16962,7 +16961,7 @@
 			)
 		)
 		(property "Manufacturer" "JST Sales America Inc."
-			(at 51 29.5 0)
+			(at 79 37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,7 +16970,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 51 29.5 0)
+			(at 79 37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,7 +16979,7 @@
 			)
 		)
 		(property "Manufacturer PN" "B5B-XH-A"
-			(at 51 29.5 0)
+			(at 79 37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17336,7 +17335,7 @@
 	)
 	(symbol
 		(lib_id "TerminalCuriositySymbols:ASSY_USB-C-Breakout")
-		(at 33.5 21 180)
+		(at 53 28.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17344,7 +17343,7 @@
 		(dnp no)
 		(uuid "876ade06-8179-4e58-8074-8f6abb1a7e2d")
 		(property "Reference" "A3"
-			(at 26 20 0)
+			(at 45.5 27.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17352,7 +17351,7 @@
 			)
 		)
 		(property "Value" "4090"
-			(at 29.25 19.44 0)
+			(at 48.75 26.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17360,7 +17359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.5 21 0)
+			(at 53 28.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17369,7 +17368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.5 21 0)
+			(at 53 28.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17378,7 +17377,7 @@
 			)
 		)
 		(property "Description" "ADAFRUIT USB C BREAKOUT BOARD"
-			(at 33.5 21 0)
+			(at 53 28.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17387,7 +17386,7 @@
 			)
 		)
 		(property "Company" ""
-			(at 33.5 21 0)
+			(at 53 28.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17395,7 +17394,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit"
-			(at 33.5 21 0)
+			(at 53 28.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17404,7 +17403,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 33.5 21 0)
+			(at 53 28.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17413,7 +17412,7 @@
 			)
 		)
 		(property "Manufacturer PN" "4090"
-			(at 33.5 21 0)
+			(at 53 28.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19970,7 +19969,7 @@
 		(dnp no)
 		(uuid "fcbf64aa-02b8-4300-9e38-a499ae9b4034")
 		(property "Reference" "J1"
-			(at 84.5 48.78 0)
+			(at 84.5 29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19978,7 +19977,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 84.5 46.24 0)
+			(at 84.5 49.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
