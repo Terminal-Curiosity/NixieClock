@@ -1,16 +1,36 @@
-/Datasheets
-/Design Docs
-/Images
-*.lnk
-*.lck
+# PlatformIO
+.pio/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# KiCad
 *.kicad_prl
+*.lck
 fp-info-cache
-*.zip
-/PCB/NixieClock/NixieClock_NixieTubePanel/gerber_to_order
-PCB/NixieClock/NixieClock_ControlDaughterBoard/\#auto_saved_files\#
-/PCB/NixieClock/NixieClock_NixieTubePanel/Outputs
+#auto_saved_files#
+
+# Build outputs
 *.pdf
-PCB/NixieClock/NixieClock_NixieTubePanel/CE3E3V2_NixieClock_NixieTubePanel.3mf
-PCB/NixieClock/NixieClock_NixieTubePanel/NixieClock_NixieTubePanel.stl
 *.stl
-PCB/NixieClock/NixieClock_NixieTubePanel/bom/ibom.html
+*.3mf
+*.zip
+
+# PCB specific
+_PCB/NixieClock/NixieClock_NixieTubePanel/gerber_to_order/
+_PCB/NixieClock/NixieClock_ControlDaughterBoard/#auto_saved_files#/
+_PCB/NixieClock/NixieClock_NixieTubePanel/Outputs/
+_PCB/NixieClock/NixieClock_NixieTubePanel/bom/ibom.html
+
+# Misc
+*.lnk
+.DS_Store
