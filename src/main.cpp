@@ -30,7 +30,6 @@ const byte K155ID1_OFF_CODE = 0x0F; // BCD 1111 (an invalid input that turns off
 const int digitCodesOdds[] = {9,0,8,4,12,2,10,6,14,1}; //tube pin to digit mapping for tubes
 
 // --- Global Variables for PWM and Display (volatile for ISR access) ---
-volatile int current_brightness_percent = MAX_BRIGHTNESS_PERCENT; 
 volatile byte current_digit_bcd_tube1 = 0x00; // Example: Display digit '0' for tube 1
 volatile byte current_digit_bcd_tube2 = 0x02; // Example: Display digit '2' for tube 2
 volatile byte current_digit_bcd_tube3 = 0x03; // Example: Display digit '3' for tube 3
@@ -177,31 +176,6 @@ void loop() {
   //delay(1000);
 
 
-void readLDRAndMapBrightness() {
-  int ldrValue = analogRead(LDR_pin);
-
-  // Maps the raw ADC value (from LDR_BRIGHT_ADC_MIN to LDR_DARK_ADC_MAX)
-  // to the desired brightness percentage (from MAX_BRIGHTNESS_PERCENT to MIN_BRIGHTNESS_PERCENT).
-  // Remember to calibrate LDR_BRIGHT_ADC_MIN and LDR_DARK_ADC_MAX for your specific setup.
-  current_brightness_percent = map(ldrValue, 
-                                   LDR_BRIGHT_ADC_MIN,  // Input lower bound (ADC val for bright)
-                                   LDR_DARK_ADC_MAX,    // Input upper bound (ADC val for dark)
-                                   MAX_BRIGHTNESS_PERCENT, // Output lower bound (for bright)
-                                   MIN_BRIGHTNESS_PERCENT  // Output upper bound (for dark)
-                                  );
-
-  // Ensures the brightness value stays within the defined min/max percentage.
-  current_brightness_percent = constrain(current_brightness_percent, 
-                                         MIN_BRIGHTNESS_PERCENT, 
-                                         MAX_BRIGHTNESS_PERCENT
-                                        );
-
-  Serial.print("LDR Raw: ");
-  Serial.print(ldrValue);
-  Serial.print(", Brightness %: ");
-  Serial.println(current_brightness_percent);
-}
-
 // --- I2C Write Helper Function ---
 void writePcf8574(byte address, byte data) {
   Wire.beginTransmission(address); 
@@ -317,108 +291,3 @@ void IRAM_ATTR one_sec_tick_timer_callback(void* arg)
   oneSecondFlag = true; //after one sec, set the flag true
 }
 
-uint32_t ColorHSV(float h, float s, float v) {
-  float c = v * s;
-  float x = c * (1 - fabs(fmod(h / 60.0, 2) - 1));
-  float m = v - c;
-
-  float r1, g1, b1;
-  if      (h < 60)  { r1 = c; g1 = x; b1 = 0; }
-  else if (h < 120) { r1 = x; g1 = c; b1 = 0; }
-  else if (h < 180) { r1 = 0; g1 = c; b1 = x; }
-  else if (h < 240) { r1 = 0; g1 = x; b1 = c; }
-  else if (h < 300) { r1 = x; g1 = 0; b1 = c; }
-  else              { r1 = c; g1 = 0; b1 = x; }
-
-  uint8_t r = (r1 + m) * 255;
-  uint8_t g = (g1 + m) * 255;
-  uint8_t b = (b1 + m) * 255;
-
-  return ((uint32_t)r << 16) | ((uint32_t)g << 8) | b;
-}
-
-
-
-/*
-void digitCycle(int delayms)
-{
-  for(int i=0; i<10; i++) //loop through all possible 4 bit states rapidly to show that we have reached end of the loop
-  {
-    int ldrValue = analogRead(LDR_PIN);
-    //writeDigit(i);
-    write1byte(PCF8574_ADDRESS_1,i);
-    delay(delayms); //wait 0.5sec before next transition
-  }
-}
-
-void printDigit (byte digit)
-{
-  byte sendVal = (digitCode[digit] & 0x0F) | ((digit & 0x0F) << 4);
-  Wire.beginTransmission(PCF8574_ADDRESS_1);
-  Wire.write(sendVal);
-  byte error = Wire.endTransmission();
-  if (error == 0) {
-  //Serial.println("I2C write Success");
-  } else {
-  Serial.print("I2C Error: ");
-  Serial.println(error);
-  }
-}
-
-// void writeDigit(int digit)
-// {
-//     int address = digitCode[digit];
-//     // digitalWrite(pin1,bitRead(address,0)); //read 0th bit of i, set it high on pin1
-//     // digitalWrite(pin2,bitRead(address,1));
-//     // digitalWrite(pin3,bitRead(address,2));
-//     // digitalWrite(pin4,bitRead(address,3));
-// }
-
-void write1byte(byte address, byte digit)
-{
-  byte sendVal = (digitCode[digit] & 0x0F) | ((digit & 0x0F) << 4);
-  Serial.println(sendVal,BIN);
-  Wire.beginTransmission(address);
-  //Wire.write(0x01);
- Wire.write(sendVal);
-  byte error = Wire.endTransmission();
-  if (error == 0) {
-  Serial.println("I2C write Success");
-  } else {
-  Serial.print("I2C Error: ");
-  Serial.println(error);
-  }
-}
-
-
-
-void showColor(uint32_t color, int LEDnum = 0) {
-  strip.setPixelColor(LEDnum, color);  // Set the first (only) LED
-  strip.show();
-}
-
-void rainbowFade() {
-  for (int j = 0; j < 256; j++) {
-    for (int i = 0; i < strip.numPixels(); i++) {
-      strip.setPixelColor(i, wheel((i + j) & 255));
-    }
-    strip.show();
-    delay(20);
-  }
-}
-
-// Helper function to generate rainbow colors
-uint32_t wheel(byte pos) {
-  if (pos < 85) 
-  return strip.Color(pos * 3, 255 - pos * 3, 0);
-  else if (pos < 170) {
-    pos -= 85;
-    return strip.Color(255 - pos * 3, 0, pos * 3);
-  } else {
-    pos -= 170;
-    return strip.Color(0, pos * 3, 255 - pos * 3);
-  }
-}
-
-
-*/
