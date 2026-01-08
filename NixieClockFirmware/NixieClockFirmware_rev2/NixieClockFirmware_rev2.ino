@@ -53,7 +53,9 @@ void setup() {
   Wire.begin(SDA_pin, SCL_pin);  //initialise I2C with pins specified
   Wire.setClock(100000); // set I2C speed (default is 100kHz)
   pinMode(led_pin,OUTPUT);
+  digitalWrite(led_pin, LOW);
   analogSetAttenuation(ADC_11db); // sets attenuation of LDR input (otherwise it will be 0-1V)
+  
 
   strip.begin();         // Initialize NeoPixel strip
   strip.setBrightness(50);  // brightness from 0–255
@@ -97,28 +99,39 @@ void setup() {
 }
 
 
-
+uint16_t hue = 0;
 void loop() {
-  uint16_t hue = 0;
 
-  readLDRAndMapBrightness();
-  delay(10);
 
-  if(led_update)
-  {
-  hue = 36 * current_digit_bcd_tube1;
-  uint32_t color = ColorHSV(hue, 1.0, 1.0);
+
+  
+  
+
+  //readLDRAndMapBrightness();
+  delay(1000);
+
+//  if(led_update)
+//  {
+  
+  uint32_t color = ColorHSV(hue, 1, 1);
 
   uint32_t led_colour_val = 0x000000FF << current_digit_bcd_tube1;
   strip.setPixelColor(0, color);  // Set the first (only) LED
   strip.setPixelColor(1, color);
   strip.setPixelColor(2, color);
   strip.setPixelColor(3, color);
+
   
   strip.show();
   led_update = 0;
+  hue = hue+36;
+  Serial.println(hue);
+  if(hue >= 360)
+  {
+    hue = 0;
   }
-  
+  }
+
 
 //  for(int i = 0; i < 256; i++)
 //   {
@@ -144,7 +157,7 @@ void loop() {
   // delay(1);
 
   //delay(1000);
-}
+
 
 void readLDRAndMapBrightness() {
   int ldrValue = analogRead(LDR_PIN);
