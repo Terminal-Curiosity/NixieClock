@@ -15,8 +15,6 @@ A retro-style digital clock built with nixie tubes and an ESP32 microcontroller,
 
 ![Nixie Clock Block Diagram](docs/Nixie clock block diagram rev2.png)
 
-See [docs/design/](docs/Nixie clock block diagram rev2.png) for the detailed block diagram and architecture information.
-
 ## Hardware
 
 ### Main Components
