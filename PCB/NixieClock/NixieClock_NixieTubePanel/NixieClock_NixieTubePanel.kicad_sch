@@ -6885,16 +6885,6 @@
 				(justify left)
 			)
 		)
-		(property "MANUFACTURER" "MSI"
-			(at 139.4 131.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Checked" ""
 			(at 183 131.5 0)
 			(effects
@@ -6913,15 +6903,6 @@
 			)
 		)
 		(property "Manufacturer" "Unknown"
-			(at 183 131.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" ""
 			(at 183 131.5 0)
 			(effects
 				(font
@@ -7825,16 +7806,6 @@
 				(justify left)
 			)
 		)
-		(property "MANUFACTURER" "MSI"
-			(at 139.4 256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Checked" ""
 			(at 183 256 0)
 			(effects
@@ -7853,15 +7824,6 @@
 			)
 		)
 		(property "Manufacturer" "Unknown"
-			(at 183 256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" ""
 			(at 183 256 0)
 			(effects
 				(font
@@ -11620,16 +11582,6 @@
 				(justify left)
 			)
 		)
-		(property "MANUFACTURER" "MSI"
-			(at 139.4 196.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Checked" ""
 			(at 183 196.5 0)
 			(effects
@@ -11648,15 +11600,6 @@
 			)
 		)
 		(property "Manufacturer" "Unknown"
-			(at 183 196.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" ""
 			(at 183 196.5 0)
 			(effects
 				(font
@@ -12461,15 +12404,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Manufacturer P/N" ""
-			(at 183 72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer PN" "Unknown"
